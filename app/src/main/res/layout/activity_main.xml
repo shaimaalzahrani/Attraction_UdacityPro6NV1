@@ -37,7 +37,6 @@ tools:context="com.example.mypc.attraction_udacitypro6.MainActivity">
     style="@style/CategoryStyle"
     android:background="@color/category_phrases"
     android:text="@string/category_Par"
-    android:textColor="@color/fontC"
-    android:onClick="moveToDetectedIntent" />
+    android:textColor="@color/fontC" />
 
 </LinearLayout>

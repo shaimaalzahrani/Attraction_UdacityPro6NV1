@@ -2,10 +2,7 @@ package com.example.mypc.attraction_udacitypro6;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class Coffees extends AppCompatActivity {
 
@@ -35,15 +32,6 @@ public class Coffees extends AppCompatActivity {
                 CustomList(Coffees.this, CoffName, imageId);
         list=(ListView)findViewById(R.id.list);
         list.setAdapter(adapter);
-        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-                Toast.makeText(Coffees.this, "You Clicked at " +CoffName[+ position], Toast.LENGTH_SHORT).show();
-
-            }
-        });
 
     }
 }

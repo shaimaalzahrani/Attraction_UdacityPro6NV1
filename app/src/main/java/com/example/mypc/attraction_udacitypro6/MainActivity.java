@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import org.w3c.dom.Attr;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity{
 
     TextView Attrac;
     TextView Restu;
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    public void onClick(View view){
+    public void moveToDetectedIntent(View view){
         if(view == Attrac){
             Intent intent = new Intent(this, Attractions.class);
             startActivity(intent);
