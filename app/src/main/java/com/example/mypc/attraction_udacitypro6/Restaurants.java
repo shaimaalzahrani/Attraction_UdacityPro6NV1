@@ -18,10 +18,10 @@ public class Restaurants extends AppCompatActivity {
 
     } ;
     Integer[] imageId = {
-            R.drawable.imageR1,
-            R.drawable.imageR2,
-            R.drawable.imageR3,
-            R.drawable.imageR4
+            R.drawable.imager1,
+            R.drawable.imager2,
+            R.drawable.imager3,
+            R.drawable.imager4
 
     };
 

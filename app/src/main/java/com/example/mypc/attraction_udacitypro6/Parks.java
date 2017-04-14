@@ -17,9 +17,9 @@ public class Parks extends AppCompatActivity {
 
     } ;
     Integer[] imageId = {
-            R.drawable.imageP1,
-            R.drawable.imageP2,
-            R.drawable.imageP3
+            R.drawable.imagep1,
+            R.drawable.imagep2,
+            R.drawable.imagep3
 
     };
 

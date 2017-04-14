@@ -18,11 +18,11 @@ public class Coffees extends AppCompatActivity {
             "Segafredo"
     } ;
     Integer[] imageId = {
-            R.drawable.imageC1,
-            R.drawable.imageC2,
-            R.drawable.imageC3,
-            R.drawable.imageC4,
-            R.drawable.imageC5
+            R.drawable.imagec1,
+            R.drawable.imagec2,
+            R.drawable.imagec3,
+            R.drawable.imagec4,
+            R.drawable.imagec5
 
     };
 

@@ -19,11 +19,11 @@ public class Attractions extends AppCompatActivity {
             "Roman Forum"
     } ;
     Integer[] imageId = {
-            R.drawable.imageA1,
-            R.drawable.imageA2,
-            R.drawable.imageA3,
-            R.drawable.imageA4,
-            R.drawable.imageA5
+            R.drawable.imagea1,
+            R.drawable.imagea2,
+            R.drawable.imagea3,
+            R.drawable.imagea4,
+            R.drawable.imagea5
 
     };
 
