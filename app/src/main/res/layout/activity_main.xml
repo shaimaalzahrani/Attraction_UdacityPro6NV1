@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/tan_background"
+android:orientation="vertical"
+tools:context="com.example.mypc.attraction_udacitypro6.MainActivity">
+
+<TextView
+    android:id="@+id/Att"
+    style="@style/CategoryStyle"
+    android:background="@color/category_numbers"
+    android:text="@string/category_Att"
+    android:textColor="@color/fontC"
+    android:onClick="moveToDetectedIntent"/>
+
+<TextView
+    android:id="@+id/Res"
+    style="@style/CategoryStyle"
+    android:background="@color/category_family"
+    android:text="@string/category_Res"
+    android:textColor="@color/fontC"
+    android:onClick="moveToDetectedIntent"/>
+
+<TextView
+    android:id="@+id/Cof"
+    style="@style/CategoryStyle"
+    android:background="@color/category_colors"
+    android:text="@string/category_Cof"
+    android:textColor="@color/fontC"
+    android:onClick="moveToDetectedIntent"/>
+
+<TextView
+    android:id="@+id/Park"
+    style="@style/CategoryStyle"
+    android:background="@color/category_phrases"
+    android:text="@string/category_Par"
+    android:textColor="@color/fontC"
+    android:onClick="moveToDetectedIntent" />
+
+</LinearLayout>

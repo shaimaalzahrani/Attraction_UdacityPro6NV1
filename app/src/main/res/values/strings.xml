@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ITALY</string>
+
+    <string name="category_Att">Attractions</string>
+
+    <string name="category_Res">Restaurants</string>
+
+    <string name="category_Cof">Coffees</string>
+
+    <string name="category_Par">Parks</string>
+</resources>
