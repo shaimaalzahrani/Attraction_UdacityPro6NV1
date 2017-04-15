@@ -10,40 +10,29 @@ import org.w3c.dom.Attr;
 
 public class MainActivity extends AppCompatActivity{
 
-    TextView Attrac;
-    TextView Restu;
-    TextView Coffee;
-    TextView Park;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Attrac = (TextView)findViewById(R.id.Att);
-        Restu = (TextView)findViewById(R.id.Res);
-        Coffee = (TextView)findViewById(R.id.Cof);
-        Park = (TextView)findViewById(R.id.Park);
-
     }
 
-    public void moveToDetectedIntent(View view){
-        if(view == Attrac){
-            Intent intent = new Intent(this, Attractions.class);
-            startActivity(intent);
-        }
-        else if(view == Restu){
-            Intent intent = new Intent(this, Restaurants.class);
-            startActivity(intent);
-        }
-        else if(view == Coffee){
-            Intent intent = new Intent(this, Coffees.class);
-            startActivity(intent);
-        }
-        else if(view == Park){
-            Intent intent = new Intent(this, Parks.class);
-            startActivity(intent);
-        }
+    public void moveToAtt(View view) {
+        Intent intent = new Intent(this, Attractions.class);
+        startActivity(intent);
+    }
 
+    public void moveToRes(View view) {
+        Intent intent = new Intent(this, Restaurants.class);
+        startActivity(intent);
+    }
+
+    public void moveToCof(View view) {
+        Intent intent = new Intent(this, Coffees.class);
+        startActivity(intent);
+    }
+
+    public void moveToPark(View view){
+        Intent intent = new Intent(this, Parks.class);
+        startActivity(intent);
     }
 }

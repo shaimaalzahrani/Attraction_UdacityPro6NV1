@@ -14,7 +14,7 @@ tools:context="com.example.mypc.attraction_udacitypro6.MainActivity">
     android:background="@color/category_numbers"
     android:text="@string/category_Att"
     android:textColor="@color/fontC"
-    android:onClick="moveToDetectedIntent"/>
+    android:onClick="moveToAtt"/>
 
 <TextView
     android:id="@+id/Res"
@@ -22,7 +22,7 @@ tools:context="com.example.mypc.attraction_udacitypro6.MainActivity">
     android:background="@color/category_family"
     android:text="@string/category_Res"
     android:textColor="@color/fontC"
-    android:onClick="moveToDetectedIntent"/>
+    android:onClick="moveToRes"/>
 
 <TextView
     android:id="@+id/Cof"
@@ -30,13 +30,14 @@ tools:context="com.example.mypc.attraction_udacitypro6.MainActivity">
     android:background="@color/category_colors"
     android:text="@string/category_Cof"
     android:textColor="@color/fontC"
-    android:onClick="moveToDetectedIntent"/>
+    android:onClick="moveToCof"/>
 
 <TextView
     android:id="@+id/Park"
     style="@style/CategoryStyle"
     android:background="@color/category_phrases"
     android:text="@string/category_Par"
-    android:textColor="@color/fontC" />
+    android:textColor="@color/fontC"
+    android:onClick="moveToPark"/>
 
 </LinearLayout>

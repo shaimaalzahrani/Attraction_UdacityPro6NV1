@@ -9,18 +9,12 @@ public class Attractions extends AppCompatActivity {
 
     ListView list;
     String[] AttName = {
-            "Colosseum",
             "Florence Cathedral",
-            "Grand Canal Venice",
-            "St Peter's Basilica",
-            "Roman Forum"
+            "St Peter's Basilica"
     } ;
     Integer[] imageId = {
-            R.drawable.imagea1,
             R.drawable.imagea2,
-            R.drawable.imagea3,
-            R.drawable.imagea4,
-            R.drawable.imagea5
+            R.drawable.imagea4
 
     };
 
