@@ -12,19 +12,25 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class CustomList extends ArrayAdapter<String>{
+public class CustomList extends ArrayAdapter<Place>{
 
     private final Activity context;
     private final String[] Name;
     private final Integer[] imageId;
     public CustomList(Activity context,
-                      String[] web, Integer[] imageId) {
-        super(context, R.layout.item, web);
+                      Place[] places) {
+        super(context, R.layout.item, places);
         this.context = context;
-        this.Name = web;
-        this.imageId = imageId;
 
+        Name = new String[places.length];
+        imageId = new Integer[places.length];
+
+        for (int i=0; i<places.length; i++){
+            Name[i] = places[i].getPlaceName();
+            imageId[i] = places[i].getPlaceImageId();
+        }
     }
+
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         LayoutInflater inflater = context.getLayoutInflater();

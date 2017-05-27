@@ -8,4 +8,20 @@
     <string name="category_Cof">Coffees</string>
 
     <string name="category_Par">Parks</string>
+
+    //Places names strings
+    <string name="Att1">Florence Cathedral</string>
+    <string name="Att2">St Peter\'s Basilica</string>
+    <string name="Coff1">Molinari</string>
+    <string name="Coff2">Antonion\'s</string>
+    <string name="Coff3">Piccolo</string>
+    <string name="Coff4">Mio Posto</string>
+    <string name="Coff5">Segafredo</string>
+    <string name="res1">Dolce</string>
+    <string name="res2">Figaro</string>
+    <string name="res3">Cush</string>
+    <string name="res4">Cinque</string>
+    <string name="p1">Val Grande</string>
+    <string name="p2">Stelvio</string>
+    <string name="p3">Gran Paradiso</string>
 </resources>
